@@ -159,7 +159,6 @@ def process_image(image):
     kernel_size = 5
     blur_gray = cv2.GaussianBlur(gray,(kernel_size, kernel_size),0)
 
-
     # Define our parameters for Canny and apply
     low_threshold = 50
     high_threshold = 150
